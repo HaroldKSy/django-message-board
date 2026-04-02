@@ -1,4 +1,4 @@
-# My Awesome Project
+# django-message-board
 
 
 ## Description
@@ -17,9 +17,19 @@ Built to practice full-stack development with Django, Git, and deployment.
 - HTML/CSS
 - Git & GitHub
 
+## Project Structure
+```
+project/
+ | -- app/
+ | -- templates/
+ | -- static/
+ | -- manage.py
+```
+
 ## Installation / Setup
+
+```
 1. Clone the repo:
-```bash
 git clone https://github.com/yourusername/project-name.git
 cd project-name
 
@@ -38,23 +48,13 @@ python manage.py runserver
 
 ## 6. usage
 Explain how to use it:
-
-```md
 - Go to http://127.0.0.1:8000/
 - Create a post
 - Reply to others
+```
 
-## Project Structure
-project/
- | -- app/
- | -- templates/
- | -- static/
- | -- manage.py
-
- ## Deployment
- ## live Demo
+ ## Live Demo Deployment
  https://your-app.onrender.com
-
 
  ## What I learned
  - How Django handles routing and views
